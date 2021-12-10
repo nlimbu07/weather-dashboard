@@ -1,9 +1,11 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+body {    
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 
+  /* Jumborton start*/
 .header {
     background-color:#7d0cb6;
+    display: 75%;
     color: whitesmoke;
     text-align: center;
     border-radius: 0.5px;
@@ -11,13 +13,19 @@ body {
     margin: 10px;
     border-radius: 5px;    
 }
+/* Jumborton end*/
 
-.search, .forecast-header {
+/* Search bar start */
+.search {
     margin: 20px;
 }
 
-.form-input {
-    width: 100%;
+.input-group {
+    justify-content: center;
+}
+
+.form-input {    
+    width: 80%;
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
@@ -26,22 +34,44 @@ body {
   }
 
 .btn {    
-    background-color: #be65eb;
+    background-color: #6f308f;    
     font-size: 1.3rem;
     text-decoration: none;
     padding: 6px 5px;
-    width: 100%;
+    width: 55%;
     display: block;
     margin: 5px 0;
     border-radius: 5px;
     color: white;    
 }
 
-.card {
-    margin: 15px;
-    background-color: #be65eb;
+.btn:hover {
+    background-color: rgb(67, 68, 128);
+}
+/* Search bar end */
+
+/* Main Display start */
+#current-weather {
+    margin: 20px;    
 }
 
-.current-weather, .weather-input {
+.card {
+    margin-right: 20px;
+}
+
+.current-weather {
     margin: 5px;
 }
+/* Main Display end */
+
+/* 5-Day Forecast start */
+#future-weather {
+    top: 10px;
+}
+
+.forecast-card {
+    cursor: pointer;
+    margin-right: 33px;    
+    background-color: #372e3b;    
+}
+/* 5-Day Forecast end */
