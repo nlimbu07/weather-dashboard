@@ -1,77 +1,87 @@
 body {    
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  /* Jumborton start*/
-.header {
-    background-color:#7d0cb6;
-    display: 75%;
-    color: whitesmoke;
-    text-align: center;
-    border-radius: 0.5px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;    
-}
-/* Jumborton end*/
-
-/* Search bar start */
-.search {
-    margin: 20px;
-}
-
-.input-group {
-    justify-content: center;
-}
-
-.form-input {    
-    width: 80%;
-    padding: 3%;
-    margin: 5px 0;
-    font-size: 1.2rem;
-    border: 2px solid rgb(240, 199, 199);
-    border-radius: 5px;
-  }
-
-.btn {    
-    background-color: #6f308f;    
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 6px 5px;
-    width: 55%;
-    display: block;
-    margin: 5px 0;
-    border-radius: 5px;
-    color: white;    
-}
-
-.btn:hover {
-    background-color: rgb(67, 68, 128);
-}
-/* Search bar end */
-
-/* Main Display start */
-#current-weather {
-    margin: 20px;    
-}
-
-.card {
-    margin-right: 20px;
-}
-
-.current-weather {
-    margin: 5px;
-}
-/* Main Display end */
-
-/* 5-Day Forecast start */
-#future-weather {
-    top: 10px;
-}
-
-.forecast-card {
-    cursor: pointer;
-    margin-right: 33px;    
-    background-color: #372e3b;    
-}
-/* 5-Day Forecast end */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+ 
+   /* Jumborton start*/
+ .header {
+     background-color:#7d0cb6;
+     display: 75%;
+     color: whitesmoke;
+     text-align: center;
+     border-radius: 0.5px;
+     padding: 5px;
+     margin: 10px;
+     border-radius: 5px;    
+ }
+ /* Jumborton end*/
+ 
+ /* Search bar start */
+ .search {
+     margin: 20px;
+ }
+ 
+ .input-group {
+     justify-content: center;
+ }
+ 
+ .form-input {    
+     width: 80%;
+     padding: 3%;
+     margin: 5px 0;
+     font-size: 1.2rem;
+     border: 2px solid rgb(240, 199, 199);
+     border-radius: 5px;
+   }
+ 
+ .btn {    
+     background-color: #6f308f;    
+     font-size: 1.3rem;
+     text-decoration: none;
+     padding: 6px 5px;
+     width: 55%;
+     display: block;
+     margin: 5px 0;
+     border-radius: 5px;
+     color: white;    
+ }
+ 
+ .btn:hover {
+     background-color: rgb(67, 68, 128);
+ }
+ 
+ .list-group-item {
+     background-color: rgb(206, 206, 214);
+ }
+ 
+ li {
+     cursor: pointer;
+     margin: 15px;
+     border-radius: 5px;
+ }
+ /* Search bar end */
+ 
+ /* Main Display start */
+ #current-weather {
+     margin: 20px;    
+ }
+ 
+ .card {
+     margin-right: 20px;
+ }
+ 
+ .current-weather {
+     margin: 5px;
+ }
+ /* Main Display end */
+ 
+ /* 5-Day Forecast start */
+ #future-weather {
+     top: 10px;
+ }
+ 
+ .forecast-card {
+     cursor: pointer;
+     margin-right: 33px;    
+     background-color: #372e3b;    
+ }
+ /* 5-Day Forecast end */
