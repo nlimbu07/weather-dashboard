@@ -6,7 +6,7 @@ Third-party APIs allow developers to access their data and functionality by maki
 
 ![application screenshot](./assets/images/image.png)
 
-### [Deployed Application]
+### [Deployed Application](https://nlimbu07.github.io/weather-dashboard/)
 
 #
 
