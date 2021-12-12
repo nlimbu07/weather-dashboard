@@ -44,8 +44,6 @@ function currentWeather(city) {
     var date = moment().format('L');
     $('#current-date').text(`(${date})`);
 
-    // var date = new Date(response.dt * 1000).toLocaleDateString();
-
     // current city and concanating the date and icon
     var currentCity = $('#current-city');
     $(currentCity).html(`${response.name} (${date})<img src=${iconUrl}>`);
@@ -58,7 +56,6 @@ function currentWeather(city) {
     // wind-speed, converted to MPH
     var windInputEl = $('#wind-input');
     var ws = response.wind.speed;
-    // var windsmph = (ws * 2.237).toFixed(1);
     $(windInputEl).html(ws + ' MPH');
 
     // humidity
@@ -89,9 +86,9 @@ function currentWeather(city) {
 }
 
 // This function returns the uvIndex response
-function uvIndex(ln, lt) {
+function uvIndex(lon, lat) {
   // url for uvIndex
-  var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${lt}&lon=${ln}`;
+  var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?appid=${apiKey}&lat=${lat}&lon=${lon}`;
   $.ajax(uvUrl, {
     method: 'GET',
   }).then(function (response) {
